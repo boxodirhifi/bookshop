@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Cardo', serif;
+}
+.container{
+    width: 1345px;
+    margin: auto;
+}
+button{
+    font-size: 16px;
+    width: 170px;
+    height: 55px;
+    border: 2px solid #FFCA42;
+    background-color: transparent;
+    color: currentColor;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #FFCA42;
+    color: #1B3764;
+    transition: all ease-in-out .3s;
+}
+.btn{
+    font-size: 16px;
+    width: 190px;
+    height: 55px;
+    border: 2px solid #1B3764;
+    background-color: transparent;
+    color: #1B3764;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #f0f0f0;
+    background-color: #1B3764;
+    transition: all ease-in-out .3s;
+}
+
+.title{
+    text-align: center;
+    font-size: 28px;
+    margin: 30px 0;
+}
+.title .title-hr{
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+    margin: 20px auto;
+}
+.title .title-hrr{
+    width: 50px;
+    height: 3px;
+    background-color: #1B3764;
+    margin: 20px auto;
+}
+/* ____________________________________________-
+Sayttagi obshiy narsala tepada
+_________________________________________________- */
+
+header{
+    padding: 25px 20px;
+    background-color: #1B3764;
+    color: #f0f0f0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo .icon{
+    width: 37px;
+    height: 37px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu .nav-item{
+    display: flex;
+    align-items: center;
+}
+.nav-item li{
+    list-style: none;
+    padding: 3px 30px;
+}
+.nav-item li a{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 17px;
+}
+.nav-item li a:hover{
+    color: #FFCA42;
+}
+
+.menu .menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item img{
+    cursor: pointer;
+    margin-right: 30px;
+}
+/* _____________________________________________________________
+End of navbar blog
+____________________________________________________________ */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header-blog .blog-title{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.header-blog .blog-title .blog-title-hr{
+    width: 30px;
+    height: 2px;
+    background-color: #FFCA42;
+    margin-right: 20px;
+}
+.header-blog .header-h1{
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+.header-blog .header-lorem{
+    color: #B4C7E7;
+}
+.header-blog .header-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.header-blog .header-btn p{
+    margin-left: 100px;
+    border-bottom: 2px solid #fff;
+    text-align: left;
+    width: 130px;
+    cursor: pointer;
+}
+.header-blog ul{
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.header-blog ul .ul{
+    margin-left: 20px;
+    display: grid;
+}
+.header-blog ul .ul li{
+    color: #FFCA42;
+    font-size: 24px;
+}
+.header-blog ul .ul li span{
+    color: #f0f0f0;
+}
+.header-blog ul .ul p{
+    color: #B4C7E7;
+}
+/* ________________________________________________________
+End of the header blog
+__________________________________________________________ */
+
+.bookshop{
+    padding: 90px 0;
+    color: #1B3764;
+}
+.bookshop .bookshop-books{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bookshop .bookshop-cost{
+    display: flex;
+    align-items: center;
+}
+.bookshop .bookshop-cost .bookshop-text{
+    margin-left: 25px;
+}
+.bookshop .bookshop-cost .bookshop-text .bookshop-title h1{
+    font-size: 23px;
+}
+.bookshop .bookshop-cost .bookshop-text .bookshop-title p{
+    color: #FFCA42;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.bookshop .bookshop-cost .bookshop-text .bookshop-lorem{
+    color: #969AA0;
+    margin-bottom: 20px;
+}
+
+/* _______________________________________________________--
+end of the section
+_______________________________________________________________- */
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F8FC;
+    padding: 90px 30px;
+    color: #1B3764;
+}
+.contact-img{
+    width: 545px;
+    height: 640px;
+    border: 10px solid #FFCA42;
+}
+.contact-img img{
+    margin: -40px;
+}
+
+.contact-text{
+width: 550px;
+}
+.contact-text .contact-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.contact-text .contact-title .contact-title-hr{
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+}
+.contact-text .contact-lorem{
+    color: #969AA0;
+    margin-bottom: 20px;
+}
+.contact-text .contact-box{
+    display: flex;
+    align-items: center;
+}
+.contact-box .box1{
+    padding: 15px;
+    border-right: 2px solid #FFCA42;
+}
+.contact-box .box1:nth-child(3){
+    border: none;
+}
+.contact-box .box1 h1{
+    font-size: 32px;
+}
+.contact-box .box1 p{
+    color: #969AA0;
+}
+
+.contact-qr{
+    margin-top: 30px;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    background-color: #1B3764;
+    color: #B4C7E7;
+    padding: 15px;
+    justify-content: space-between;
+}
+.contact-qr .qr-text h3{
+    color: #FFCA42;
+    margin-bottom: 10px;
+}
+
+/* ________________________________________________________
+We gonna to make company logos
+________________________________________________________________ */
+
+.company-logo{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1B3764;
+}
+.company-logo .logo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 30px;
+}
+.company-logo .logo-box h3{
+    margin: 10px 0;
+}
+
+/* ____________________________________________________________
+It will be a copy blog
+________________________________________________________________________ */
+
+.copy{
+    padding: 60px;
+    background-color: #1B3764;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.copy .copy-blog .copy-title{
+    font-size: 28px;
+}
+.copy .copy-blog .copy-title .copy-title-hr{
+    width: 35px;
+    height: 3px;
+    background-color: #FFCA42;
+    margin: 14px 0;
+}
+
+.copy-lorem{
+    color: #969AA0;
+    margin: 25px 0;
+}
+
+/* _______________________________________________________
+No comment
+_______________________________________________________ */
+
+.learn{
+    color: #1B3764;
+    padding: 90px 30px;
+}
+
+.learn-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.learn-blog-box{
+    display: flex;
+}
+.learn-blog-box .box-text{
+    display: block;
+    margin-right: 20px;
+}
+.learn-blog-box .box-text .text-box {
+    margin-top: 15px;
+    width: 260px;
+    height: 220px;
+    background-color: #F4F8FF;
+    padding: 40px;
+    border-radius: 7px;
+}
+.learn-blog-box .box-text .text-box h1{
+    background-color: #FFCA42;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.learn-img{
+    margin-top: 90px;
+    width: 545px;
+    height: 640px;
+    border: 10px solid #FFCA42;
+}
+.learn-img img{
+    margin: -60px;
+}
+
+/* _______________________________________________________
+No comment
+_______________________________________________________ */
+
+.enhance{
+    padding: 30px 20px;
+    color: #1B3764;
+    background-color: #F4F8FF;
+}
+
+.enhance-blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enhance-blog .enhance-blog-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 15px;
+    width: 530px;
+    height: 230px;
+    padding: 40px;
+    background-color: #fff;
+}
+.enhance-blog .enhance-blog-box p{
+    color: #969AA0;
+}
+.enhance-blog .enhance-blog-box .box-f{
+    display: flex;
+    justify-content: flex-start;
+}
+.enhance-blog .enhance-blog-box .box-f li{
+    color: #FFCA42;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.enhance-blog .enhance-blog-box .box-f li span{
+    color: #1B3764;
+}
+.enhance-blog .enhance-blog-box .box-f li p{
+    font-size: medium;
+    margin-left: 20px;
+    margin-bottom: -2px;
+    color: #FFCA42;
+}
+
+.enhance .enhance-btn{
+    text-align: center;
+}
+.enhance-btn button{
+    width: 300px;
+    margin: 20px 0;
+}
+.enhance-btn p{
+    color: #969AA0;
+}
+.enhance-btn span{
+    color: #1B3764;
+    cursor: pointer;
+}
+
+/* _______________________________________________________
+No comment
+_______________________________________________________ */
+
+.reader{
+    background-color: #fff;
+    padding: 100px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.reader .reader-title{
+    font-size: 25px;
+}
+.reader .reader-title .reader-title-hr{
+    width: 40px;
+    height: 3px;
+    background-color: #FFCA42;
+    margin: 15px 0;
+}
+.reader .reader-lorem{
+    color: #969AA0;
+    margin-bottom: 20px;
+}
+.reader .reader-rate{
+    align-items: center;
+    display: flex;
+}
+.reader .reader-rate span{
+    margin-left: 20px;
+}
+.reader .reader-p{
+    color: #1B3764;
+    margin-top: 5px;
+}
+
+.rate-boxes{
+    display: block;
+    margin-right: -100px;
+}
+
+.rate-box{
+    margin: 20px 0;
+    padding: 15px 30px;
+    width: 350px;
+    height: 260px;
+    background-color: #1B3764;
+    color: #F4F8FF;
+}
+.rate-box .rate-title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+.rate-box .rate-title .rate-name{
+    margin-left: 20px;
+}
+.rate-box .rate-title .rate-name p{
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+.rate-box p{
+    color: #969AA0;
+    margin-top: 10px;
+}
+
+/* _______________________________________________________
+No comment
+_______________________________________________________ */
+
+.cards{
+    background-color: #F4F8FF;
+    padding: 100px 30px;
+    color: #1B3764;
+}
+.card-columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    margin: 0 10px;
+    color: #1B3764;
+    background-color: #fff;
+}
+.card .card-body{
+    padding: 15px;
+}
+.card .card-body .card-text{
+    color: #969AA0;
+    margin: 15px 0;
+    margin-bottom: 0;
+}
+
+.card .card-foteer{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+.card .card-foteer a{
+    color: #1B3764;
+    font-size: 20px;
+}
+
+/* _______________________________________________________
+No comment
+_______________________________________________________ */
+
+.get{
+    padding: 100px 30px;
+}
+
+.updates{
+    padding: 90px;
+    background-color: #FFCA42;
+    color: #1B3764;
+    text-align: center;
+}
+.update-lorem p{
+    margin-bottom: 20px;
+}
+
+.update-lorem form input{
+    height: 55px;
+    width: 650px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: large;
+}
+
+/* _______________________________________________________
+No comment
+_______________________________________________________ */
+
+footer{
+    display: flex;
+    padding: 90px 0;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #1B3764;
+    color: #B4C7E7;
+}
+footer h3{
+    margin-bottom: 2----0px;
+}
+
+.img .img-icon{
+    display: flex;
+    margin-left: -13px;
+    margin-top: 10px;
+}
+.img .img-icon .iconn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFCA42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.explore .ex-img{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.touch .adres, .mail, .phone{
+    display: flex;
+    margin-top: 20px;
+}
+.adres span{
+    margin-left: 40px;
+}
+.mail span{
+    margin-left: 62px;
+}
+.phone span{
+    margin-left: 48px;
+}
