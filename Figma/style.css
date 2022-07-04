@@ -601,7 +601,7 @@ footer{
     color: #B4C7E7;
 }
 footer h3{
-    margin-bottom: 2----0px;
+    margin-bottom: 20px;
 }
 
 .img .img-icon{
@@ -619,6 +619,9 @@ footer h3{
     margin-left: 13px;
     cursor: pointer;
 }
+.explore p{
+    cursor: pointer;
+}
 
 .explore .ex-img{
     display: flex;
@@ -632,10 +635,13 @@ footer h3{
 }
 .adres span{
     margin-left: 40px;
+    cursor: pointer;
 }
 .mail span{
     margin-left: 62px;
+    cursor: pointer;
 }
 .phone span{
     margin-left: 48px;
+    cursor: pointer;
 }
